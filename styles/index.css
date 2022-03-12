@@ -100,6 +100,9 @@ header button a{
     width: 100%;
     height: 100%;
     top: 80px;
+    /* background-image: url(../assets/images/background.jpg); */
+    background-position: center;
+    background-size: cover;
 }
 
 #results{
@@ -134,4 +137,13 @@ header button a{
 .card-name:hover{
     color: red;
     cursor: pointer;
+}
+
+/* #add_fav_btn{
+    color:grey;
+    cursor:pointer;
+} */
+.card-btns img{
+    background-color: grey;
+    cursor:pointer;
 }

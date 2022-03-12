@@ -80,7 +80,8 @@ function renderData(data){
 
         // Creating new results
         var result_container = document.getElementById('result-container');
-        var results = document.createElement('DIV');
+        var results = document.createElement('div');
+        console.log(results);
         results.id = 'results';
         result_container.appendChild(results);
         
@@ -94,7 +95,7 @@ function renderData(data){
 
 function getCard(data){
     // Card container
-    var cardContainer = document.createElement('DIV');
+    var cardContainer = document.createElement('div');
     cardContainer.className = 'card-container center';
     cardContainer.id = data.id;
     var srcFav;

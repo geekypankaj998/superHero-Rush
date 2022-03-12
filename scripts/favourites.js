@@ -61,7 +61,7 @@ async function searchHero(id){
 
 // Form the card DOM
 function renderCard(data){
-    var cardContainer = document.createElement('DIV');
+    var cardContainer = document.createElement('div');
     cardContainer.className = 'card-container center';
     cardContainer.id = data.id;
     var srcFav;
