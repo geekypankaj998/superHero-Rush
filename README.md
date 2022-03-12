@@ -9,4 +9,4 @@ This contains 3 pages each having it's separate css and js files
 Made this for practicing some basic vanilla JS concepts.
 
 ## Link 
->Link to Project : 
+>Link to Project : [Project](https://geekypankaj998.github.io/superHero-Rush.github.io/pages/index.html).
